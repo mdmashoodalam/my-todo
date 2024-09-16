@@ -1,0 +1,62 @@
+/* Animation for company name */
+.company-name h2 {
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+    animation: colorChange 3s infinite alternate;
+}
+
+/* Keyframes for color animation */
+@keyframes colorChange {
+    0% {
+        color: #b40505; /* Tomato color */
+    }
+    100% {
+        color: #ffffff; /* White color */
+    }
+}
+
+/* Hover effect for social media icons */
+footer a {
+    transition: transform 0.3s, color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a:hover {
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}
+
+/* Specific colors for each social media icon */
+footer a[href*="linkedin.com"] {
+    color: #0077b5; /* LinkedIn color */
+}
+
+footer a[href*="twitter.com"] {
+    color: #1da1f2; /* Twitter color */
+}
+
+footer a[href*="github.com"] {
+    color: #333; /* GitHub color */
+}
+
+footer a[href*="instagram.com"] {
+    color: #e4405f; /* Instagram color */
+}
+
+footer a:hover[href*="linkedin.com"] {
+    color: #005582; /* Darker LinkedIn color on hover */
+}
+
+footer a:hover[href*="twitter.com"] {
+    color: #0d8ddb; /* Darker Twitter color on hover */
+}
+
+footer a:hover[href*="github.com"] {
+    color: #666; /* Darker GitHub color on hover */
+}
+
+footer a:hover[href*="instagram.com"] {
+    color: #c13584; /* Darker Instagram color on hover */
+}
